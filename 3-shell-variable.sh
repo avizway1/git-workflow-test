@@ -5,4 +5,4 @@
 name="aravind"
 designation="RightKey CEO"
 
-echo "hello, My name is $name and currently test am working as $designation"
+echo "hello, My name is $name and currently am working as AWS $designation"
