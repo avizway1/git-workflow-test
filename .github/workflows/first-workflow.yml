@@ -1,1 +1,12 @@
 
+name: My First Workflow
+
+on: push  # Triggers when code is pushed
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest  # Use GitHub's runner
+
+    steps:
+      - name: Print Hello
+        run: echo "Hello from GitHub Actions!"
